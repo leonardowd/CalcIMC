@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width'>
+	<title>eMagrece WD</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	<h1 id="mainTitle">Bem Vindo ao <em>e</em>Magrece WD</h1>
+	<h2>Seu auxiliador na perda de peso</h2>
+</header>
+
+	<div id='screen'>
+		<input type="text" name="userName" id="userName" placeholder="Digite seu nome" required="required">
+		<input type="number" name="peso" id="peso" placeholder="Digite seu peso" required="required">
+		<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas" required="required">
+		<input type="button" name="enviar" id="enviar" value="enviar" onclick="calcular()">
+			
+		<div id="resultScreen">
+			<p id="imcAtual"></p>
+			<p id="resultado"></p>
+			<p id="imcIdeal"></p>
+			<p>Peso ideal segundo o seu sexo e altura</p>
+			<img src="peso.jpg" id="imgPeso">
+		</div>
+	</div>
+<footer>
+	<p id="devBy">Desenvolvido por <strong><a href="mailto:leonardoviniciuswd@gmail.com" target="_blank">Leonardo Vinicius</a></strong> - 21/03/2020</p>
+</footer>
+<script src="script.js">
+</script>
+</body>
+</html>

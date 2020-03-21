@@ -1,0 +1,45 @@
+body {
+	background-color: #F6E03F;
+	text-align: center;
+	color: #821F29;
+	font-family: 'PT Serif', serif;
+
+}
+
+#screen {
+	margin: 5% auto;
+	width: 90%;
+	background-color: #ADBD06;
+	color: #fff;
+	padding: 2%;
+}
+
+input {
+	display: block;
+	width: 75%;
+	margin: 2% auto;
+	font-size: 1.3em;
+}
+
+#resultScreen {
+	display: none;
+}
+
+#imgPeso {
+	max-width: 90%;
+}
+
+#devBy a {
+	text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+	#screen {
+		width: 65%;
+		margin: 2% auto;
+	}
+
+	p {
+		font-size: 1.3em;
+	}
+}
