@@ -2,6 +2,9 @@
 
 Com essa calculadora, você poderá calcular o seu IMC, e saber se está no peso ideal.
 
+## Link da Demo:
+[*Demo*](https://leonardowd.github.io/CalcIMC/)
+
 ## Ferramentas e tecnologias:
 
 Desenvolvi o aplicativo utilizando **HTML5**, **CSS3** e **JavaScript**. Não utilizei nenhum tipo de *framework* nem *API*.
