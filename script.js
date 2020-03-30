@@ -7,12 +7,14 @@ function calcular() {
 	var pesoIdeal = document.getElementById('pesoIdeal');
 	var perder = document.getElementById('perder');
 	var res = document.getElementById('resultado');
+	var uName = document.getElementById('uName'); 
 	document.getElementById('resultScreen').style.display = 'block';
 
 	Number(peso.value);
 	Number(altura.value);
 	var imcAt = peso.value / ((altura.value / 100) * (altura.value / 100));
 
+	uName.innerHTML
 	imcAtual.innerHTML = `Seu IMC atual é de ${imcAt.toFixed(2)}`;
 		if (imcAt < 18.5) {
 			res.innerHTML = 'Você está abaixo do peso';
