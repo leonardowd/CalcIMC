@@ -12,12 +12,13 @@ function calcular() {
 	Number(altura.value);
 	var imcAt = peso.value / ((altura.value / 100) * (altura.value / 100));
 
-	uName.innerHTML
 	imcAtual.innerHTML = `Seu IMC atual é de ${imcAt.toFixed(2)}`;
 	if (nome.value.length == 0 || peso.value.length == 0 || altura.value.length ==0) {
 		alert('Por favor, preencha todos os dados acima');
 	} else {	
-		document.getElementById('resultScreen').style.display = 'block';	
+		document.getElementById('resultScreen').style.display = 'block';
+		var sau = document.getElementById('saudacoes');
+		sau.innerHTML = `Hola, ${nome.value}!`;	
 		imcAtual.innerHTML = `Seu IMC atual é de ${imcAt.toFixed(2)}`;
 		if (imcAt < 18.5) {
 			res.innerHTML = 'Você está abaixo do peso';
