@@ -1,7 +1,7 @@
 body {
-	background-color: #F6E03F;
+	background-color: #6FFF3D;
 	text-align: center;
-	color: #821F29;
+	color: #FF6D24;
 	font-family: 'PT Serif', serif;
 
 }
@@ -9,8 +9,8 @@ body {
 #screen {
 	margin: 5% auto;
 	width: 90%;
-	background-color: #ADBD06;
-	color: #fff;
+	background-color: #30FF7B;
+	color: #FF6D24;
 	padding: 2%;
 }
 
@@ -31,6 +31,15 @@ input {
 
 #devBy a {
 	text-decoration: none;
+	color: #5759FF;
+}
+
+#enviar {
+	background-color: #fff;
+	color: #B34114;
+	border-radius: 10%;
+	font-size: 25px;
+	width: 50%;
 }
 
 @media (min-width: 1024px) {
