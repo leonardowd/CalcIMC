@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content='width=device-width'>
 	<title>eMagrece WD</title>
 	<link rel="stylesheet" href="style.css">
@@ -14,10 +14,12 @@
 </header>
 
 	<div id='screen'>
-		<input type="text" name="userName" id="userName" placeholder="Digite seu nome" required="required">
-		<input type="number" name="peso" id="peso" placeholder="Digite seu peso" required="required">
-		<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas" required="required">
+	<form>
+		<input type="text" name="userName" id="userName" placeholder="Digite seu nome"/>
+		<input type="number" name="peso" id="peso" placeholder="Digite seu peso"/>
+		<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
 		<input type="button" name="enviar" id="enviar" value="enviar" onclick="calcular()">
+	</form>
 			
 		<div id="resultScreen">
 			<p id="uName"></p>

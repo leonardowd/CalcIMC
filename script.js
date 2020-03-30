@@ -7,8 +7,6 @@ function calcular() {
 	var pesoIdeal = document.getElementById('pesoIdeal');
 	var perder = document.getElementById('perder');
 	var res = document.getElementById('resultado');
-	var uName = document.getElementById('uName'); 
-	document.getElementById('resultScreen').style.display = 'block';
 
 	Number(peso.value);
 	Number(altura.value);
@@ -16,6 +14,11 @@ function calcular() {
 
 	uName.innerHTML
 	imcAtual.innerHTML = `Seu IMC atual é de ${imcAt.toFixed(2)}`;
+	if (nome.value.length == 0 || peso.value.length == 0 || altura.value.length ==0) {
+		alert('Por favor, preencha todos os dados acima');
+	} else {	
+		document.getElementById('resultScreen').style.display = 'block';	
+		imcAtual.innerHTML = `Seu IMC atual é de ${imcAt.toFixed(2)}`;
 		if (imcAt < 18.5) {
 			res.innerHTML = 'Você está abaixo do peso';
 		} else if (imcAt < 24.9) {
@@ -31,5 +34,6 @@ function calcular() {
 				res.innerHTML = 'Você está com obesidade grau 2';
 			}
 	imcIdeal.innerHTML = `O IMC Ideal é entre 18,5 e 24,9`;
+	}
 
 }
