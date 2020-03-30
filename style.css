@@ -6,12 +6,18 @@ body {
 
 }
 
+body h1, h2, p {
+	text-shadow: 0 0 2px rgb(255, 109, 36);
+}
+
 #screen {
 	margin: 5% auto;
 	width: 90%;
 	background-color: #30FF7B;
 	color: #FF6D24;
 	padding: 2%;
+	border-radius: 10%;
+	box-shadow: 0 0 40px rgb(55, 189, 103);
 }
 
 input {
@@ -19,6 +25,12 @@ input {
 	width: 75%;
 	margin: 2% auto;
 	font-size: 1.3em;
+	border-radius: 10%;
+	text-align: center;
+	box-shadow: 0 0 10px rgb(55, 189, 103);
+}
+fieldset {
+	border: none;
 }
 
 #resultScreen {
@@ -41,7 +53,6 @@ input {
 	font-size: 25px;
 	width: 50%;
 }
-
 @media (min-width: 1024px) {
 	#screen {
 		width: 65%;
