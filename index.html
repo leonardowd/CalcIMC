@@ -14,23 +14,25 @@
 </header>
 	<section class="campo-descricao">
 		<p>
-			IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+			<strong>IMC</strong> é a sigla para Índice de Massa Corpórea, parâmetro adotado pela <strong>Organização Mundial de Saúde</strong> para calcular o peso ideal de cada pessoa.
 		</p>
 		<p>
 			O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
 		</p>
 		<p>
-			Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela.
+			<strong>Quer descobrir seu IMC?</strong> Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela.
 		</p>
 	</section>
 	<div id='screen'>
 		
 		<form>
-			<fieldset>		
-			<input type="text" name="userName" id="userName" placeholder="Digite seu nome"/>
-			<input type="number" name="peso" id="peso" placeholder="Digite seu peso"/>
-			<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
-			<input type="button" name="enviar" id="enviar" value="Calcular IMC" onclick="calcular()">
+			<fieldset id="dados-usuario">		
+				<input type="text" name="userName" id="userName" placeholder="Digite seu nome"/>
+				<input type="number" name="peso" id="peso" placeholder="Digite seu peso"/>
+				<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
+			</fieldset>
+			<fieldset>
+				<input type="button" name="enviar" id="enviar" value="Calcular IMC" onclick="calcular()">
 			</fieldset>
 		</form>
 				
