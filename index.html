@@ -12,28 +12,39 @@
 	<h1 id="mainTitle">Bem Vindo ao <em>e</em>Magrece WD</h1>
 	<h2>Seu auxiliador na perda de peso</h2>
 </header>
-
+	<section class="campo-descricao">
+		<p>
+			IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+		</p>
+		<p>
+			O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+		</p>
+		<p>
+			Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela.
+		</p>
+	</section>
 	<div id='screen'>
-	<form>
-		<fieldset>		
-		<input type="text" name="userName" id="userName" placeholder="Digite seu nome"/>
-		<input type="number" name="peso" id="peso" placeholder="Digite seu peso"/>
-		<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
-		<input type="button" name="enviar" id="enviar" value="enviar" onclick="calcular()">
-		</fieldset>
-	</form>
-			
-		<div id="resultScreen">
-			<p id="saudacoes"></p>
-			<p id="imcAtual"></p>
-			<p id="resultado"></p>
-			<p id="imcIdeal"></p>
-			<p>Peso ideal segundo o seu sexo e altura</p>
-			<img src="peso.jpg" id="imgPeso">
-		</div>
+		
+		<form>
+			<fieldset>		
+			<input type="text" name="userName" id="userName" placeholder="Digite seu nome"/>
+			<input type="number" name="peso" id="peso" placeholder="Digite seu peso"/>
+			<input type="number" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
+			<input type="button" name="enviar" id="enviar" value="Calcular IMC" onclick="calcular()">
+			</fieldset>
+		</form>
+				
+			<div id="resultScreen">
+				<p id="saudacoes"></p>
+				<p id="imcAtual"></p>
+				<p id="resultado"></p>
+				<p id="imcIdeal"></p>
+				<p>Peso ideal segundo o seu sexo e altura</p>
+				<img src="peso.jpg" id="imgPeso">
+			</div>
 	</div>
 <footer>
-	<p id="devBy">Desenvolvido por <strong><a href="mailto:leonardoviniciuswd@gmail.com" target="_blank">Leonardo Vinicius</a></strong> - 21/03/2020</p>
+	<p id="devBy">Desenvolvido por <strong><a href="mailto:leonardoviniciuswd@gmail.com" target="_blank">Leonardo Vinicius</a></strong> - 21/03/2020 - versão 2.0</p>
 </footer>
 <script src="script.js">
 </script>

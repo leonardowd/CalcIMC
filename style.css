@@ -9,7 +9,11 @@ body {
 body h1, h2, p {
 	text-shadow: 0 0 2px rgb(255, 109, 36);
 }
-
+.campo-descricao {
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+}
 #screen {
 	margin: 5% auto;
 	width: 90%;
@@ -65,10 +69,14 @@ fieldset {
 	}
 
 	p {
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 }
 @media (min-width: 900px) {
+	.campo-descricao {
+		margin: 0 auto;
+		width: 600px;
+}
 	#screen {
 		width: 55%;
 	}
