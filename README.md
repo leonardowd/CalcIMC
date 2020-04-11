@@ -21,7 +21,6 @@ A calculadora é responsiva, sendo desenvolvida utilizando *mobile first*, tendo
 
 ![Telas grandes](imagensReadme/telaSegGrande1.png)
 
-![Telas grandes](imagensReadme/telaSegGrande2.png)
 
 
 ### Desenvolvimento:
