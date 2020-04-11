@@ -57,6 +57,10 @@ fieldset {
 	font-size: 25px;
 }
 
+#enviar:hover {
+	background-color: #94322f;
+}
+
 #imgPeso {
 	border-radius: 10%;
 	box-shadow: 0 0 20px rgb(255, 255, 255);
