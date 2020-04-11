@@ -58,7 +58,7 @@ fieldset {
 	border-radius: 10%;
 	box-shadow: 0 0 20px rgb(255, 255, 255);
 }
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
 	#screen {
 		width: 65%;
 		margin: 2% auto;
@@ -66,5 +66,15 @@ fieldset {
 
 	p {
 		font-size: 1.3em;
+	}
+}
+@media (min-width: 900px) {
+	#screen {
+		width: 55%;
+	}
+}
+@media (min-width: 1000px) {
+	#screen {
+		width: 500px;
 	}
 }
