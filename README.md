@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido por **Leonardo Vinicius**
 [*GitHub:*](https://github.com/leonardowd)
 
 
-[*Linkedin*](www.linkedin.com/in/leonardoviniciuswd)  
+[*Linkedin*](https://www.linkedin.com/in/leonardoviniciuswd/)  
 
 
 *E-mail:* leonardoviniciuswd@gmail.com
