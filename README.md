@@ -9,7 +9,7 @@ Com essa calculadora, você poderá calcular o seu IMC, e saber se está no peso
 
 Desenvolvi o aplicativo utilizando **HTML5**, **CSS3** e **JavaScript**. Não utilizei nenhum tipo de *framework* nem *API*.
 
-A calculadora é responsiva, sendo desenvolvida utilizando *mobile first*, tendo um tamanho que pode ser utilizado tanto em celulare, quanto tablets e monitores maiores.
+A calculadora é responsiva, sendo desenvolvida utilizando *mobile first*, tendo um tamanho que pode ser utilizado tanto em celular, quanto tablets e monitores maiores.
 
 ### Imagens de exemplo:
 
