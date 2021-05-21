@@ -27,5 +27,9 @@ A calculadora é responsiva, sendo desenvolvida utilizando *mobile first*, tendo
 
 Esse projeto foi desenvolvido por **Leonardo Vinicius**  
 [*GitHub:*](https://github.com/leonardowd)
-[*Linkedin*](https://www.linkedin.com/in/leonardovinciuswd/)  
+
+
+[*Linkedin*](www.linkedin.com/in/leonardoviniciuswd)  
+
+
 *E-mail:* leonardoviniciuswd@gmail.com
