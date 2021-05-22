@@ -15,11 +15,11 @@ A calculadora é responsiva, sendo desenvolvida utilizando *mobile first*, tendo
 
 **Tela Inicial(telas maiores):**
 
-![Telas grandes](imagensReadme/telaInicialGrande.png)
+![Telas grandes](imagensReadme/exemplo-1.png)
 
 **Tela Após o click(telas maiores):**
 
-![Telas grandes](imagensReadme/telaSegGrande1.png)
+![Telas grandes](imagensReadme/exemplo-2.png)
 
 
 
