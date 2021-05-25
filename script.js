@@ -13,7 +13,7 @@ function calcular() {
 	Number(altura.value);
 	var imcAt = peso.value / ((altura.value / 100) * (altura.value / 100));
 
-		
+	if (imcAt >= 0) {
 		document.getElementById('resultScreen').style.display = 'block';
 		var sau = document.getElementById('saudacoes');
 		sau.innerHTML = `Hola, ${nome.value}!`;	
@@ -36,4 +36,8 @@ function calcular() {
 				res.innerHTML = 'Você está com obesidade grau 3, melhor procurar nutricionista';
 			}
 	imcIdeal.innerHTML = `O IMC Ideal é entre 18,5 e 24,9`;
-	}
+		} else {
+			alert("Os dados não podem ficar em branco");
+		}
+	
+}
