@@ -25,11 +25,11 @@
 	</section>
 	<div id='screen'>
 		
-		<form>
+		<form onsubmit="event.preventDefault()">
 			<fieldset id="dados-usuario">		
 				<input type="text" required name="userName" id="userName" placeholder="Digite seu nome"/>
-				<input type="number" required min="1" max="250" name="peso" id="peso" placeholder="Digite seu peso"/>
-				<input type="number" required min="1" max="250" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
+				<input type="number" required min="1" max="999" name="peso" id="peso" placeholder="Digite seu peso"/>
+				<input type="number" required min="1" max="999" name="altura" id="altura" placeholder="digite sua altura sem vírgulas"/>
 			</fieldset>
 			<fieldset>
 				<input type="submit" name="enviar" id="enviar" value="Calcular IMC" onclick="calcular()">
